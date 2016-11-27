@@ -20,6 +20,8 @@ import {Provider} from 'react-redux';
 
 import store, {history} from './store';
 
+import Raven from 'raven-js';
+
 //if history were to be export const history =...; it would be import {history} because it was not a default export
 //import rootReducer from './reducers/index';
 const router = (
